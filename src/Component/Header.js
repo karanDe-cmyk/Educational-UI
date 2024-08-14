@@ -13,6 +13,7 @@ export default function Header() {
           <Navbar.Brand as={NavLink} to="/" className="navbar-brand offset-md-2">
             <img className="d-inline-block " src="images/logo.png" alt="" width={80} height={70}/>
           </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end ">
             <Nav className="ml-auto">
                 <li className="c1" >

@@ -33,7 +33,7 @@ export default function Contact() {
               dummy text ever since the 1500 s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book.{" "}
             </p>
-            <ValidationSchemaExample />
+          <ValidationSchemaExample />
           </Col>{" "}
           <Col md={4}>
             <Row>
