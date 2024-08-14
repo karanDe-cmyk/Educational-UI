@@ -24,7 +24,7 @@ function GoToBtn() {
   };
 
   return (
-    <div className="header_wrapper">
+    <div className="header_wrapper1">
       {showButton && (<button onClick={scrollToTop} id="scroll-to-top-btn">
         <i className="fa fa-arrow-up"></i>
       </button>)}

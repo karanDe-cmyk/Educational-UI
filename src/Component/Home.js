@@ -4,6 +4,7 @@ import Features from "./Features.js";
 import Footer from "./Footer.js";
 import "react-slideshow-image/dist/styles.css";
 import Carousel from 'react-bootstrap/Carousel';
+import GoToBtn from "./GoToBtn.js";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
             </Carousel.Item>
         </Carousel>
         <Features />
+        <GoToBtn />
         <Footer />
     </>
   );

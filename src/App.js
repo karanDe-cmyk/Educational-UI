@@ -7,7 +7,6 @@ import Price from "./Component/Price";
 import Video from "./Component/Video";
 import Contact from "./Component/Contact";
 import Sidebar from "./Component/Sidebar";
-import GoToBtn from "./Component/GoToBtn.js";
 import Development from "./Component/Development.js";
 import All from "./Component/All.js";
 import Designing from "./Component/Designing.js";
@@ -34,7 +33,6 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </Router>
-      <GoToBtn />
     </>
   );
 }
